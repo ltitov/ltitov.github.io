@@ -1,0 +1,161 @@
+@media (max-width: 991px) {
+  .nav__burger {
+    display: block;
+    margin-top: 35px;
+  }
+
+  .nav__list {
+    display: none;
+    position: absolute;
+    z-index: 3;
+    top: 77px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: url(../images/background.png);
+    border-bottom: 5px solid #f0924f;
+  }
+
+  .nav__item {
+    display: block;
+    text-align: center;
+    margin-left: 0;
+    border-top: 1px solid #f2a66f;
+  }
+
+  .nav__item+.nav__item {
+    margin-left: 0;
+  }
+
+  .nav__link {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .slider-bottom {
+    display: none;
+  }
+
+  .slick-dots li button:before {
+    font-size: 30px;
+    color: #b9b9b9;
+  }
+
+  .slick-dots li.slick-active button:before {
+    opacity: 0.8;
+    color: #e8663c;
+  }
+
+
+
+  .blog {
+    margin-right: 20px;
+  }
+
+  .works__wrapper {
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+
+
+  .work {
+    width: 45%;
+  }
+
+
+  .work__img {
+
+    width: 100%;
+
+  }
+
+  .footer__box {
+    padding-right: 20px;
+  }
+
+
+}
+
+
+
+/* Стили для маленьких экранов (дисплей максимум 767 пикселей) */
+@media (max-width: 767px) {}
+
+/* Стили для очень маленьких экранов (дисплей максимум 575 пикселей) */
+@media (max-width: 575px) {
+  .slider-top__text {
+    bottom: 0;
+    left: 0px;
+    max-width: 100%;
+    padding-right: 19px;
+  }
+
+  .blogs__inner {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .blogs {
+    padding-top: 0;
+
+  }
+
+  .blog {
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .blog__title {
+    padding: 24px 0 0 70px;
+    margin: 0;
+
+  }
+
+  .blog__text {
+    max-width: 100%;
+  }
+
+  .blog__btn {
+    margin-bottom: 20px;
+  }
+
+  .footer__inner {
+    flex-direction: column;
+  }
+
+  .footer__box {
+    padding-right: 0;
+    padding-bottom: 10px;
+  }
+
+
+  .footer__box--about,
+  .footer__box--twitter,
+  .footer__box--contact {
+    max-width: 100%;
+  }
+
+}
+
+@media (max-width: 435px) {
+  .blog__title--logo-icon3:before {
+    top: 30px;
+
+  }
+}
+
+
+@media (max-width: 410px) {
+  .blog__title--logo-icon2:before {
+    top: 30px;
+
+  }
+}
+
+@media (max-width: 375px) {
+  .blog__title--logo-icon1:before {
+    top: 24px;
+
+  }
+}
