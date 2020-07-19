@@ -246,7 +246,7 @@ a {
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
-  background-image: url(../images/_blog/icon-1.png);
+  background-image: url(../images/blog/icon-1.png);
 }
 
 .blog__title--logo-icon2:before {
@@ -258,7 +258,7 @@ a {
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
-  background-image: url(../images/_blog/icon-2.png);
+  background-image: url(../images/blog/icon-2.png);
 }
 
 .blog__title--logo-icon3:before {
@@ -269,7 +269,7 @@ a {
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
-  background-image: url(../images/_blog/icon-3.png);
+  background-image: url(../images/blog/icon-3.png);
 }
 
 
@@ -312,7 +312,7 @@ a {
   color: #e8603c;
   text-transform: uppercase;
   margin-bottom: 22px;
-  background-image: url(../images/_works/line.jpg);
+  background-image: url(../images/works/line.jpg);
 }
 
 .works__span {

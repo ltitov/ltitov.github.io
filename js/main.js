@@ -2,8 +2,8 @@
 
     $('.slider-top').slick({
       asNavFor: '.slider-bottom',
-      prevArrow: '<button class="slick-arrow slick-prev"><img src="./images/_slider/prev-arrow.png" alt=""></button>',
-      nextArrow: '<button class="slick-arrow slick-next"><img src="./images/_slider/next-arrow.png" alt=""></button>',
+      prevArrow: '<button class="slick-arrow slick-prev"><img src="./images/slider/prev-arrow.png" alt=""></button>',
+      nextArrow: '<button class="slick-arrow slick-next"><img src="./images/slider/next-arrow.png" alt=""></button>',
       responsive: [{
         breakpoint: 991,
         settings: {
