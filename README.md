@@ -1,2 +1,5 @@
 # ltitov.github.io
-Jetro
+
+https://ltitov.github.io/Jetro/
+
+https://ltitov.github.io/Bislite/
