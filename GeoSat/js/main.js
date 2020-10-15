@@ -34,7 +34,7 @@ $(function () {
   });
 
   var newSwiper = new Swiper('.services-slider__container', {
-    slidesPerView: 3,
+    slidesPerView: 2,
     spaceBetween: 30,
     slidesPerGroup: 2,
     loop: false,
