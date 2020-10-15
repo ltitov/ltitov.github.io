@@ -193,7 +193,8 @@
     }
 
     .about__content-text,
-    .about__content-btn {
+    .about__content-btn,
+    .discount__text {
       font-size: 16px;
     }
 
