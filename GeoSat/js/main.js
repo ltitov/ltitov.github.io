@@ -50,6 +50,23 @@ $(function () {
       el: '.services-slider__pagination',
       clickable: true,
     },
+    breakpoints: {
+      319: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        slidesPerGroup: 1,
+      },
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 30,
+        slidesPerGroup: 2,
+      },
+      1024: {
+        slidesPerView: 2,
+        spaceBetween: 30,
+        slidesPerGroup: 2,
+      }
+    }
   });
 
 

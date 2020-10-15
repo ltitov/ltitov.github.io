@@ -127,6 +127,8 @@
     .equipment-card__img {
       width: 100%;
     }
+
+
   }
 
   /* Breakpoint 575px */
@@ -162,7 +164,8 @@
       height: 8px;
     }
 
-    .slider__work-title {
+    .slider__work-title,
+    .services__title {
       font-size: 30px;
     }
 
@@ -189,18 +192,18 @@
       font-size: 40px;
     }
 
-    .about__content-text {
-      font-size: 16px;
-    }
-
+    .about__content-text,
     .about__content-btn {
       font-size: 16px;
     }
 
-
-
     .slider__work-text {
       font-size: 18px;
+    }
+
+    .services-slider__pagination>.swiper-pagination-bullet {
+      width: 10px;
+      height: 6px;
     }
 
 
