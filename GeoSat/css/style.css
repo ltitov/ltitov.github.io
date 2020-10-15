@@ -384,6 +384,15 @@ li {
   text-align: right;
 }
 
+.equipment__wrap-img {
+  display: flex;
+  align-items: center;
+}
+
+.equipment-card__img {
+  object-fit: contain;
+}
+
 /*  End equipment */
 
 
