@@ -87,6 +87,14 @@
     transition: 0.4s;
   }
 
+  .about__content {
+    text-align: center;
+  }
+
+  .about__content-text {
+    max-width: 960px;
+  }
+
   .feature__inner {
     flex-wrap: wrap;
   }
@@ -152,13 +160,7 @@
 
 
 @media (max-width: 575px) {
-  .about__content {
-    text-align: center;
-  }
 
-  .about__content-text {
-    max-width: 570px;
-  }
 
 
   .header__contact {
