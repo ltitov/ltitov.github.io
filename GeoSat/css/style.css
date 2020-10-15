@@ -186,19 +186,9 @@ li {
   position: relative;
   display: table;
   margin: 20px auto;
-  /* transition: color 0.3s ease-in; */
+  animation: bounce 2s ease 3s infinite;
 }
 
-/* .scroll-down::before {
-  content: '';
-  position: absolute;
-  top: -14px;
-  left: -12px;
-  width: 50px;
-  height: 50px;
-  border: 3px solid #ffcd00;
-  border-radius: 50%;
-} */
 
 .linearicons-chevron-down {
   color: #ffcd00;
@@ -376,8 +366,6 @@ li {
   flex-direction: row-reverse;
 }
 
-.equipment-card__wrap {}
-
 .equipment-card__title {
   font-size: 30px;
   font-family: "PT Sans", sans-serif;
@@ -394,6 +382,15 @@ li {
   font-family: "Open Sans", sans-serif;
   padding: 25px 0px 35px 0px;
   text-align: right;
+}
+
+.equipment__wrap-img {
+  display: flex;
+  align-items: center;
+}
+
+.equipment-card__img {
+  object-fit: contain;
 }
 
 /*  End equipment */

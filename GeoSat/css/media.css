@@ -1,0 +1,235 @@
+@media (max-width: 960px) {
+  .header__menu-burger {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    display: block;
+    cursor: pointer;
+  }
+
+  .header__menu-burger span,
+  .header__menu-burger:after,
+  .header__menu-burger:before {
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    background-color: #f5f5f5;
+    margin: 0 auto;
+  }
+
+  .header__menu-burger span {
+    top: 15px;
+  }
+
+  .header__menu-burger:after,
+  .header__menu-burger:before {
+    content: '';
+  }
+
+  .header__menu-burger:after {
+    bottom: 8px;
+  }
+
+  .header__menu-burger:before {
+    top: 6px;
+  }
+
+  .header__menu {
+    display: block;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 100%;
+    right: -100%;
+    box-shadow: 0 4px 2px -2px rgba(36, 36, 36, 0.37);
+    text-align: center;
+    background-color: #1e2126;
+    transition: all 0.4s ease;
+  }
+
+  .header__menu.open-menu {
+    right: 0;
+  }
+
+  .header__menu-list {
+    display: block;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+  }
+
+  .header__menu-item {
+    padding: 5px 0px;
+    font-size: 14px;
+  }
+
+  .header__menu-link {
+    display: block;
+    padding: 10px 0;
+  }
+
+  .header__menu-item+.header__menu-item {
+    border-top: 1px solid #fff;
+  }
+
+  .header__menu-burger.open-menu span {
+    opacity: 0;
+    transition: 0.5s;
+  }
+
+  .header__menu-burger.open-menu:before {
+    transform: rotate(38deg);
+    top: 16px;
+    transition: 0.4s;
+  }
+
+  .header__menu-burger.open-menu:after {
+    transform: rotate(-38deg);
+    bottom: 16px;
+    transition: 0.4s;
+  }
+
+  .feature__inner {
+    flex-wrap: wrap;
+  }
+
+  .feature-card {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .feature-card+.feature-card {
+    margin-left: 0px;
+  }
+
+  .feature-card__text {
+    font-size: 13px;
+  }
+
+  .equipment-card {
+    flex-direction: column;
+  }
+
+  .equipment-card__title,
+  .equipment-card-text {
+    text-align: center;
+  }
+
+  .equipment__wrap-img {
+    margin: 0 auto;
+  }
+
+  .footer-company__wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .footer-company-text {
+    padding-top: 0px;
+  }
+
+  .footer-company__office-title {
+    margin-bottom: 0;
+  }
+
+  .footer-company__contact {
+    padding-top: 10px;
+  }
+
+
+}
+
+
+/* Brealpoint 768px  */
+
+@media (max-width: 768px) {
+  .equipment-card__img {
+    width: 100%;
+  }
+
+
+}
+
+/* Breakpoint 575px */
+
+
+
+@media (max-width: 575px) {
+  .about__content {
+    text-align: center;
+  }
+
+  .about__content-text {
+    max-width: 570px;
+  }
+
+
+  .header__contact {
+    margin-left: 20px;
+  }
+
+  .header__phone {
+    font-size: 12px;
+  }
+
+  .linearicons-telephone {
+    font-size: 14px;
+    padding-right: 5px;
+  }
+
+  .slider__work-pagination>.swiper-pagination-bullet,
+  .services-slider__pagination>.swiper-pagination-bullet {
+    width: 20px;
+    height: 8px;
+  }
+
+  .slider__work-title,
+  .services__title {
+    font-size: 30px;
+  }
+
+  .slider__work-text {
+    text-align: center;
+  }
+
+  .equipment-card-text {
+    font-size: 15px;
+  }
+}
+
+
+/*  Brealpoint 450px  */
+
+
+
+@media (max-width: 450px) {
+  .header__contact {
+    display: none;
+  }
+
+  .about__content-title {
+    font-size: 40px;
+  }
+
+  .about__content-text,
+  .about__content-btn,
+  .discount__text {
+    font-size: 16px;
+  }
+
+  .slider__work-text {
+    font-size: 18px;
+  }
+
+  .services-slider__pagination>.swiper-pagination-bullet {
+    width: 10px;
+    height: 6px;
+  }
+
+  .footer-company-phone {
+    font-size: 24px;
+  }
+
+  .footer-copy-right__text {
+    font-size: 14px;
+  }
+
+}
