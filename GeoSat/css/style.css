@@ -27,7 +27,7 @@ li {
 
 .swiper-container {
   max-width: 1170px;
-  max-height: 600px;
+  /* max-height: 600px; */
 }
 
 /* Start Header */
@@ -338,10 +338,10 @@ li {
 /* Slider button */
 .slider__work-pagination>.swiper-pagination-bullet,
 .services-slider__pagination>.swiper-pagination-bullet {
-  width: 20px;
+  width: 50px;
   height: 10px;
   background-color: rgba(255, 255, 255, 0.3);
-  border-radius: 5px;
+  border-radius: 2px;
   transition: all 0.5s;
   background: #fff;
   opacity: 1;
@@ -352,11 +352,14 @@ li {
   opacity: 1;
 }
 
+.services-slider__pagination>.swiper-pagination-bullet {
+  background: #ffcd00;
+}
+
 .services-slider__pagination>.swiper-pagination-bullet-active {
   background-color: #000;
   opacity: 1;
 }
-
 
 /* End slider work */
 
@@ -396,19 +399,16 @@ li {
 /*  End equipment */
 
 
-
-
-
 /* Start services */
 
 .services-slider {
   background-color: #fff;
-  padding: 70px;
+  padding: 30px 0 50px;
 }
 
 .services__title {
   text-align: center;
-  padding: 30px;
+  margin-top: 0;
   font-size: 40px;
   font-family: "PT Sans", sans-serif;
   color: #31353d;
@@ -425,7 +425,6 @@ li {
   width: 100%;
   object-fit: cover;
 }
-
 
 /* End services */
 
@@ -506,7 +505,6 @@ li {
   text-align: center;
 }
 
-
 .footer-company__maps-link,
 .footer__mail {
   padding: 10px;
@@ -536,16 +534,11 @@ li {
   line-height: 20px;
 }
 
-
-
-
-
 .footer-copy-right {
   text-align: center;
   background: #262a31;
   padding: 10px 0px;
 }
-
 
 .footer-copy-right__text {
   color: #e8e8e8;
