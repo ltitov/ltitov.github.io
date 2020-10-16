@@ -448,7 +448,7 @@ li {
 /* Start Footer area */
 
 .footer-area {
-  background: linear-gradient(0deg, rgba(49, 53, 61, 0.9), rgba(49, 53, 61, 0.9)), url(../img/newGeosat.jpg) no-repeat scroll center center;
+  background: linear-gradient(0deg, rgba(49, 53, 61, 0.9), rgba(49, 53, 61, 0.9)), url(../img/newGeosat.webp) no-repeat scroll center center;
   background-size: cover;
 }
 
