@@ -68,6 +68,7 @@
 
   .header__menu-item+.header__menu-item {
     border-top: 1px solid #fff;
+    padding-left: 0;
   }
 
   .header__menu-burger.open-menu span {
