@@ -98,10 +98,10 @@
 	top: 40px;
 	width: 112px;
 	height: 112px;
-	background-image: url(/img/video-play.svg);
+	background-image: url("/img/video-play.svg");
 	background-position: center;
-	background-size: cover;
 	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .swiper-slide video {
