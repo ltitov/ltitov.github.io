@@ -6,7 +6,6 @@
 @import "_overall.css";
 
 /* components imports */
-
 @import "./components/_header.css";
 @import "./components/_first.css";
 @import "./components/_become.css";
@@ -15,3 +14,6 @@
 @import "./components/_newsletter.css";
 @import "./components/_insp.css";
 @import "./components/_footer.css";
+
+/* media import */
+@import "_media.css";

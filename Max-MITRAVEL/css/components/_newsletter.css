@@ -42,6 +42,7 @@
 	position: absolute;
 	bottom: -96px;
 	right: var(--newsletter-gap);
+	border-radius: 8px 8px 0px 0px;
 }
 
 .subscribe-form {
@@ -71,4 +72,10 @@
 	width: 100%;
 	background-color: var(--neptune-color);
 	padding: 41px 80px;
+	transition: background-color 0.5s;
+}
+
+.subscribe-form__btn:hover {
+	background-color: var(--neptune-hover);
+	transition: background-color 0.5s;
 }
