@@ -238,9 +238,14 @@
 								Parks, & Bryce Canyon National Park ranks as three of the most magnificent.</p>
 						</div>
 						<form action="/" class="newsletter__form subscribe-form">
-							<input type="text" name="name" placeholder="Name" class="subscribe-form__field">
-							<input type="email" name="email" placeholder="Email" class="subscribe-form__field">
-							<input type="tel" name="tel" placeholder="Phone Number" class="subscribe-form__field">
+							<input type="hidden" name="admin_email[]" value="itsitou88@gmail.com">
+							<input type="hidden" name="form_subject" value="Заявка с сайта Mitravel">
+
+							<input class="subscribe-form__field" type="text" name="name" placeholder="Name">
+							<input class="subscribe-form__field" type="email" name="email" placeholder="Email"
+								data-validate-field="email">
+							<input class="subscribe-form__field" type="tel" name="tel" placeholder="Phone Number"
+								data-validate-field="tel">
 							<button class="btn btn-reset subscribe-form__btn">Sign Up Now</button>
 						</form>
 					</div>
