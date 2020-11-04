@@ -418,7 +418,10 @@
 				<nav class="footer__column">
 					<h2 class="footer__title">Subscribe Now</h2>
 					<form action="/" class="subs-form">
-						<input type="email" name="email" class="subs-form__field" placeholder="Your email">
+						<input type="hidden" name="admin_email[]" value="itsitou88@gmail.com">
+						<input type="hidden" name="form_subject" value="Заявка с сайта Mitravel">
+						<input class="subs-form__field" type="email" name="email" placeholder="Your email"
+							data-validate-field="email">
 						<button class="btn-reset btn subs-form__btn">Subscribe Now</button>
 					</form>
 				</nav>
