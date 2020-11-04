@@ -8,7 +8,7 @@
 	--newsletter-gap: 133px;
 	/* overflow: hidden; */
 	border-radius: 8px;
-	background-image: url("/img/newslettrer-cover.jpg");
+	background-image: url("img/newslettrer-cover.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
