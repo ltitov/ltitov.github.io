@@ -1,4 +1,4 @@
-.inps {
+.insp {
 	padding-top: 95px;
 	padding-bottom: 140px;
 }
@@ -7,7 +7,7 @@
 	margin-bottom: 25px;
 }
 
-.inps__descr {
+.insp__descr {
 	font-family: 'SFCompact', sans-serif;
 	text-align: center;
 	max-width: 635px;
@@ -36,6 +36,7 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	overflow: hidden;
 }
 
 .insp__item::after {

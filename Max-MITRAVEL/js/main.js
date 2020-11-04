@@ -40,6 +40,7 @@ swiperSlider2.on('transitionEnd', function () {
 		el.style.display = 'block';
 	});
 });
+
 // Бургер меню
 burger.addEventListener('click', () => {
 	menu.classList.add('menu--visible');
@@ -48,7 +49,6 @@ burger.addEventListener('click', () => {
 close.addEventListener('click', () => {
 	menu.classList.remove('menu--visible');
 });
-
 
 
 playButtonsFirst.forEach((el) => {
