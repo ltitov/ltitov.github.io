@@ -1,3 +1,7 @@
+<h2>My name is Artur</h2>
+<p style="text-align:cente;">I am a passionate Web Developer.</p>
+
+
 # ltitov.github.io
 
 https://ltitov.github.io/Jetro/
