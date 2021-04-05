@@ -88,7 +88,7 @@
 .search-form__button {
 	width: 18px;
 	height: 18px;
-	background-image: url("../search.svg");
+	background-image: url("../../img/search.svg");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
