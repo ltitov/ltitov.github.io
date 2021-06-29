@@ -13,4 +13,4 @@ https://ltitov.github.io/NewGeoSat/
 
 https://ltitov.github.io/Max-MITRAVEL
 
-https://ltitov.github.io/htmlAcademy
+https://ltitov.github.io/htmlAcatemy
